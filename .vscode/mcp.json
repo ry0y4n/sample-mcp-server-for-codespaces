@@ -10,6 +10,10 @@
   "time": {
     "command": "uvx",
     "args": ["mcp-server-time"]
+  },
+  "my-mcp-server": {
+    "command": "node",
+    "args": ["/workspaces/mcp-test/stdio_server.ts"]
   }
 }
 }
