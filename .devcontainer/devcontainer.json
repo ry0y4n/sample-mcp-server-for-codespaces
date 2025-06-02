@@ -1,8 +1,8 @@
 {
   "name": "MCP Test Environment",
   "dockerFile": "Dockerfile",
-  "workspaceFolder": "/workspaces/mcp-test",
-  
+  "workspaceFolder": "/workspaces/sample-mcp-server-for-codespaces",
+
   // Features to install
   "features": {
     "ghcr.io/devcontainers/features/git:1": {},
