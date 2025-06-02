@@ -28,7 +28,7 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 ENV PATH="/home/codespace/.local/bin:$PATH"
 
 # Set working directory
-WORKDIR /workspaces/mcp-test
+WORKDIR /workspaces/sample-mcp-server-for-codespaces
 
 # Install any additional global npm packages if needed
 # RUN npm install -g <package-name>
